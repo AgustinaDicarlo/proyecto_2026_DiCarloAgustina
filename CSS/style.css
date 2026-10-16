@@ -16,3 +16,211 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+/* ########################## HEADER ########################## */
+
+header {
+    background: #7668af;
+    color: white;
+    padding: 15px 0;
+}
+
+.barra-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span{
+    color: #F0E8E2;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #523b64;
+}
+
+/* ########################## BIENVENIDA ########################## */
+
+.hero{
+    background-color: #dac9df;
+    color: #523b64;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.boton{
+    display: inline-block;
+    margin-top: 20px;
+    background: #c0b8e8;
+    color: #222;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background: whitesmoke;
+}
+
+/* ############################# GRILLA ############################# */
+
+main{
+    padding-bottom: 50px;
+}
+
+.titulo-section{
+    text-align: center;
+    margin: 50px 0 30px;
+    font-size: 28px;
+}
+
+.grilla-productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card{
+    flex: 0 1 400px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-info{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.card h3{
+    font-size: 18px;
+}
+
+.card button{
+    background: #1d4d7a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.card button:hover{
+    background: #4775a1;
+}
+
+.categoria{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #0d273d;
+    letter-spacing: 1px;
+}
+
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    color: #523b64;
+    margin-top: auto;
+}
+
+/* ############################# FOOTER ############################# */
+
+footer{
+    background: #222;
+    color: #ddd;
+    padding: 40px 0 20px;
+}
+
+.footer-columnas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.columna{
+    flex: 1 1 250px;
+}
+
+.clumna h4{
+    color: white;
+    margin-bottom: 12px;
+}
+
+.columna ul{
+    list-style: none;
+}
+
+columna a{
+    color: #DDD;
+    text-decoration: none;
+}
+
+.columna:hover{
+    color: #c0b8e8;
+}
+
+.redes{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.redes a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.redes a:hover{
+    background: #c0b8e8;
+    color: white;
+}
