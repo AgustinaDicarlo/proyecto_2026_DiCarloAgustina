@@ -185,7 +185,7 @@ footer{
     flex: 1 1 250px;
 }
 
-.clumna h4{
+.columna h4{
     color: white;
     margin-bottom: 12px;
 }
@@ -194,7 +194,7 @@ footer{
     list-style: none;
 }
 
-columna a{
+.columna a{
     color: #DDD;
     text-decoration: none;
 }
@@ -223,4 +223,69 @@ columna a{
 .redes a:hover{
     background: #c0b8e8;
     color: white;
+}
+
+/* ######################## CONTACTO-MAPS ######################## */
+
+.bloque-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: stretch;
+}
+
+.datos-contacto{
+    flex: 1 1 320px;
+    background: #FFF2F7;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.datos-contacto h3{
+    font-size: 18px;
+    color: #0d273d;
+    margin-bottom: 25px;
+}
+
+.datos-contacto ul{
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.datos-contacto li{
+    padding: 6px 0;
+}
+
+.datos-contacto li i{
+    color: #0d273d;
+    width: 22px;
+}
+
+.datos-contacto a{
+    color: #222;
+    text-decoration: none;
+}
+
+.datos-contacto a:hover{
+    color: #0d273d;
+    text-decoration: underline;
+}
+
+/* ########################## MAPA ########################## */
+
+.mapa{
+    flex: 1 1 420px;
+    min-height: 340px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 100%;
+    min-height: 340px;
+    border: 0;
+    display: block;
 }
