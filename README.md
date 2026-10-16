@@ -1,0 +1,1 @@
+Una página para un local de insumos relacionado con lo artístico dónde se vende distintos tipos de materiales por medio online, con ubicación para ir al local de manera presencial y redes sociales para saber las últimas noticias y consultar dudas, además de número y mail de contacto en caso de necesitar hacer reclamos o también consultar dudas con los dueños del local. 
